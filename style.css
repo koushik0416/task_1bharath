@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(pic/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height:333vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width:100px;
+    cursor: pointer;
+    margin-top:auto;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(230,104,59);
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+    
+}
+/* About section styles */
+.about-content {
+    margin-left: 7%;
+    margin-right:7%;;
+    margin-top: 6%;
+    background-color: #e1f0ba; /* Set the background color to a light gray */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.about-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    color: #FF0000; /* Set the text color to red */
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
+/* Academic Qualifications section styles */
+.academic-content {
+    margin-left: 7%;
+    margin-right:7%;
+    margin-top:3%;
+    background-color: #f2f2f2; /* Set the background color to a light gray */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.academic-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    color: #FF0000;
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.education-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+/* Skills section styles */
+.skills-content {
+    margin-left: 7%;
+    margin-right:50%;
+    margin-top:3%;
+    background-color: #f2f2f2; /* Set the background color to a light gray */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.skills-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.skills-content ul {
+    list-style-type: disc; /* Set the list style to display dots */
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.skills-content ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+/* Internship section styles */
+.internship-content {
+    margin-left: 7%;
+    margin-right: 7%;;
+    margin-top: 3%;
+    background-color: #f2f2f2aa; /* Set the background color to a light gray */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.internship-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.internship-item {
+    margin-bottom: 20px;
+}
+
+.internship-item h3 {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px; /* Add space above each internship item title */
+}
+
+.internship-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+/* Projects section styles */
+.projects-content {
+    margin-left: 7%;
+    margin-right:7%;
+    margin-top: 3%;
+    background-color: #f2f2f2d5; /* Set the background color to a light gray */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.projects-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-item h3 {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px; /* Add space above each project item title */
+}
+
+.project-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+/* Contact section styles */
+.contact-content {
+    margin-left: 7%;
+    margin-right:7%;
+    margin-top: 3%;
+    background-color: rgb(242, 248, 251); /* Set the background color to a light gray */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.contact-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-top: 10px; /* Add space between contact details */
+}
